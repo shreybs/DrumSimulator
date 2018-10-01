@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+.container{
+    margin: 0px;
+    background-image: url("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 28spx;
+    font-family: Kanit,Georgia;
+    color: white;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 28px;
+    padding: 30px;
+    transition: all .07s;
+    text-align: center;
+    color: white;
+    background: transparent;
+    text-shadow: 0 0 .5rem black;
+  }
+
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 16px;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ff9317;
+  }
